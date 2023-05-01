@@ -1,0 +1,1 @@
+web: gunicorn analyserApp.wsgi --log-file - 

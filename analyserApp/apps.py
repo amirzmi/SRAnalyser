@@ -11,5 +11,5 @@ class AnalyserappConfig(AppConfig):
 
     with open(path, 'rb') as pickled:
         data = pickle.load(pickled)
-        model = data['svc']
-        vectorizer = data['cv']
+        model = data['model']
+        vectorizer = data['vectorizer']

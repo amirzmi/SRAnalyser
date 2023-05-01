@@ -1,1 +1,1 @@
-web: gunicorn analyserApp.wsgi --log-file - 
+web: gunicorn SRAnalyser.wsgi --log-file - 
